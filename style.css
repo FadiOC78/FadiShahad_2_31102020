@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&display=swap');
 
 body{
-    padding-left: 35px;
-    padding-right: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
     max-width: 1650px;
 }
 
@@ -375,7 +375,7 @@ input::placeholder {
     flex-wrap: wrap;
     height: 600px;
     padding: 10px 19px;
-
+    margin-bottom: 0px
 }
 
 .miniature{
@@ -933,14 +933,15 @@ RESPONSIVE TABLETTE-----------
 
 
     #info{
-        padding-left: 19px;
-        padding-right: 19px;
+        padding-left: 0px;
+        padding-right: 0px;
         white-space: normal;
 
     }
     
     #principal-display{
         display: flex;
+        border-radius: 30px;
         justify-content: flex-start;
         flex-direction: column-reverse;
         flex-wrap: wrap;
@@ -1108,7 +1109,7 @@ RESPONSIVE TABLETTE-----------
         flex-direction: column;
         width: 100%;
         height: 680px;
-        border-radius: 0px;
+        border-radius: 30px;
 
     }
 
@@ -1118,7 +1119,7 @@ RESPONSIVE TABLETTE-----------
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
-        padding: 10px 20px;
+        padding: 0px 0px;
         width: 100%;
         height: 100%;
     }
