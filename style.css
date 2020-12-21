@@ -961,7 +961,7 @@ RESPONSIVE TABLETTE-----------
         flex-direction: column;
         width: 100%;
         height: 380px;
-        border-radius: 0px;
+        border-radius: 30px;
 
     }
 
@@ -1016,7 +1016,7 @@ RESPONSIVE TABLETTE-----------
 
 
     #left-col{
-        border-radius: 0px;
+        border-radius: 30px;
         width: 100%;
         height: 780px;
 
@@ -1109,7 +1109,8 @@ RESPONSIVE TABLETTE-----------
         flex-direction: column;
         width: 100%;
         height: 680px;
-        border-radius: 30px;
+        border-radius: 0px;
+        padding: 1em;
 
     }
 
@@ -1147,9 +1148,11 @@ RESPONSIVE TABLETTE-----------
 
 
     #left-col{
-        border-radius: 0px;
+        border-radius: 30px;
         width: 100%;
         height: 1150px;
+        background-color: white;
+        padding: 1em
     }
 
     .miniature{
